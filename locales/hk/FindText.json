@@ -1,0 +1,17 @@
+{
+    "FindText": "查找文字",
+    "Search-Layer": "搜索圖層",
+    "Hints": "請選擇一個圖層以查找關鍵字",
+    "Layer": "圖層",
+    "Keyword": "關鍵字",
+    "Search": "搜索",
+    "Further-Textual-Query": "進階文字查詢",
+    "Clear": "清除",
+    "Status": "狀態",
+    "Waiting": "等待輸入",
+    "Finished": "查詢完成, 結果有n個圖徵",
+    "Not-found": "查詢完成但未找到任何圖徵",
+    "Refine": "請闡明選擇標準",
+    "Please-provide-Keyword": "請提供關鍵字！",
+    "Processing": "正在處理查詢..."
+}

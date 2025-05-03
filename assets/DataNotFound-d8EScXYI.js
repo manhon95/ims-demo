@@ -1,0 +1,1 @@
+import{cQ as e,cR as n,cT as r,cU as i,cV as s}from"./index-bAmN2aA2.js";const c=({open:t,handleClose:o})=>e.jsxs(n,{open:t,onClose:o,children:[e.jsx(r,{children:"Query completed but found no features. Please refine the selection criteria."}),e.jsx(i,{children:e.jsx(s,{variant:"contained",color:"primary",onClick:o,children:"Back"})})]});export{c as default};

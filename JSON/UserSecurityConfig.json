@@ -1,0 +1,585 @@
+{
+      "groups": [
+            {
+                  "name": "R&D",
+                  "tag": [
+                        "rnd"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Road Network"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Restriction"
+                        }
+                  ]
+            },
+            {
+                  "name": "GAU",
+                  "tag": [
+                        "tau"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Road Network"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Slope"
+                        }
+                  ]
+            },
+            {
+                  "name": "Headquarter",
+                  "tag": [
+                        "adm",
+                        "acc"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Road Network"
+                        },
+                        {
+                              "name": "Administrative"
+                        }
+                  ]
+            },
+            {
+                  "name": "ICC",
+                  "tag": [
+                        "icc"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Complaints"
+                        }
+                  ]
+            },
+            {
+                  "name": "Lighting",
+                  "tag": [
+                        "ltg"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Road Network"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Restriction"
+                        },
+                        {
+                              "name": "Lighting"
+                        },
+                        {
+                              "name": "Structure Lighting"
+                        }
+                  ]
+            },
+            {
+                  "name": "RCO",
+                  "tag": [
+                        "rco"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Lighting"
+                        },
+                        {
+                              "name": "Drain"
+                        },
+                        {
+                              "name": "Structure Lighting"
+                        }
+                  ]
+            },
+            {
+                  "name": "RDO",
+                  "tag": [
+                        "rdo"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Restriction"
+                        }
+                  ]
+            },
+            {
+                  "name": "Regions",
+                  "tag": [
+                        "nt",
+                        "u"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Road Network"
+                        },
+                        {
+                              "name": "Administrative"
+                        }
+                  ]
+            },
+            {
+                  "name": "Structure",
+                  "tag": [
+                        "bstr"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Structures"
+                        }
+                  ]
+            },
+            {
+                  "name": "Survey",
+                  "tag": [
+                        "sur"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Survey"
+                        }
+                  ]
+            },
+            {
+                  "name": "default",
+                  "tag": [
+                        "default"
+                  ],
+                  "layer": [
+                        {
+                              "name": "Locational"
+                        },
+                        {
+                              "name": "Road Network"
+                        },
+                        {
+                              "name": "Administrative"
+                        },
+                        {
+                              "name": "Restriction"
+                        },
+                        {
+                              "name": "Pavement"
+                        },
+                        {
+                              "name": "Environmental Permit"
+                        },
+                        {
+                              "name": "Street Furniture"
+                        },
+                        {
+                              "name": "Structures"
+                        },
+                        {
+                              "name": "Structures (LSCSB)"
+                        },
+                        {
+                              "name": "Tunnel"
+                        },
+                        {
+                              "name": "Lighting"
+                        },
+                        {
+                              "name": "Drain"
+                        },
+                        {
+                              "name": "Slope"
+                        },
+                        {
+                              "name": "Vegetation"
+                        },
+                        {
+                              "name": "Landscape"
+                        },
+                        {
+                              "name": "Survey"
+                        },
+                        {
+                              "name": "Survey Data System (SDS)"
+                        },
+                        {
+                              "name": "Agriculture Fisheries and Conservation Department (AFCD)"
+                        },
+                        {
+                              "name": "District Councils"
+                        },
+                        {
+                              "name": "Hong Kong Police Force (HKPF)"
+                        },
+                        {
+                              "name": "Antiquities and Monuments Office (AMO)"
+                        },
+                        {
+                              "name": "Tree Management Office (TMO)"
+                        },
+                        {
+                              "name": "Leisure and Cultural Services Department (LCSD)"
+                        },
+                        {
+                              "name": "Planning Department (Plan D)"
+                        },
+                        {
+                              "name": "Transport Department (TD)"
+                        },
+                        {
+                              "name": "Structure Lighting"
+                        },
+                        {
+                              "name": "High Speed Road (Temporary Reference)"
+                        },
+                        {
+                              "name": "Private Manhole"
+                        }
+                  ]
+            }
+      ],
+      "whitelist": [
+            {
+                  "layer": "Restriction",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+			{
+                  "layer": "Pavement",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+			{
+                  "layer": "Environmental Permit",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+			{
+                  "layer": "Street Furniture",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+			{
+                  "layer": "Structures",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Structures (LSCSB)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Tunnel",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Lighting",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Drain",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Vegetation",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Landscape",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Survey",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Survey Data System (SDS)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+			{
+                  "layer": "District Councils",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+			{
+                  "layer": "Agriculture Fisheries and Conservation Department (AFCD)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Hong Kong Police Force (HKPF)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Antiquities and Monuments Office (AMO)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Tree Management Office (TMO)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+									{
+                  "layer": "Leisure and Cultural Services Department (LCSD)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Planning Department (Plan D)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Transport Department (TD)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Street Furniture",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Structure Lighting",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "High Speed Road (Temporary Reference)",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            },
+						{
+                  "layer": "Private Manhole",
+                  "nameList": [
+                        "csagis1.tau",
+						"so1.tau",
+						"so2.tau",
+						"so3.tau",
+						"alsgis1.tau",
+						"alsgis2.tau",
+						"lsgis.tau"
+                  ]
+            }
+      ]
+}

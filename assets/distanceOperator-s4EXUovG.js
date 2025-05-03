@@ -1,0 +1,1 @@
+import{a,c as u}from"./distanceOperator-L9yS7QOn.js";import"./index-bAmN2aA2.js";import"./Transformation2D-xpGMitgC.js";import"./ProjectionTransformation-bgMRW0kj.js";import"./jsonConverter-IyIYV8-4.js";import"./apiConverter-lpMYR5Or.js";import"./SimpleGeometryCursor-mcLrWF5q.js";export{a as execute,u as supportsCurves};

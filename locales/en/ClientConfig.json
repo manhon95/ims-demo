@@ -1,0 +1,10 @@
+{
+    "Manage-Client-Config": "Manage Client Settings",
+    "Item": "Item",
+    "Setting": "Setting",
+    "Load-from-file": "Load from file",
+    "Save-to-file": "Save to file",
+    "Auto-save": "Auto save last map settings",
+    "Display-historical": "Display historical data of inventory layers",
+    "Management-Stat": "Switch Management Statistics PDF to Excel"
+}

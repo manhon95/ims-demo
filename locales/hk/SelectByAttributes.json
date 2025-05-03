@@ -1,0 +1,16 @@
+{
+    "Select-by-Attributes": "按屬性選擇",
+    "Target-Layer": "目標圖層",
+    "Fields": "領域",
+    "Operators": "運算符",
+    "Values": "值",
+    "Get-Unique-Values": "獲取獨特值",
+    "History-placeholder": "點擊選擇查詢歷史",
+    "Save": "儲存",
+    "Load": "加載",
+    "Clear": "清除",
+    "Query": "查詢",
+    "Further-Query": "進階查詢",
+    "trun-layer-on": "請打開圖層：{{layerName}}。",
+    "Missing-Query": "請確保輸入了查詢內容！"
+}

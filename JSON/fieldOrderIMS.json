@@ -1,0 +1,1626 @@
+{
+  "nameMapping": [
+    {
+      "resultName": "Locate Street",
+      "refLayer": "Road Name"
+    },
+    {
+      "resultName": "Locate Address",
+      "refLayer": "House Number"
+    },
+    {
+      "resultName": "Locate Building",
+      "refLayer": "Building Name"
+    },
+    {
+      "resultName": "Locate Site",
+      "refLayer": "Site"
+    },
+    {
+      "resultName": "Locate LOT",
+      "refLayer": "Private Lot or Government Land Allocation"
+    },
+    {
+      "resultName": "Locate Maintenance District",
+      "refLayer": "Maintenance District Boundary"
+    },
+    {
+      "resultName": "Locate IOW Boundary",
+      "refLayer": "IOW Boundary"
+    },
+    {
+      "resultName": "Locate IOW Boundary",
+      "refLayer": "Locate Red or Pink Route",
+      "notRef": 1
+    },
+    {
+      "resultName": "Locate Chainage Marker",
+      "refLayer": "Strategic Route Chainage"
+    },
+    {
+      "resultName": "Locate Lamppost",
+      "refLayer": "Lamp Post"
+    },
+    {
+      "resultName": "Locate Vegetation Area",
+      "refLayer": "VIS Vegetation Area",
+      "notRef": 1
+    },
+    {
+      "resultName": "Locate Map Tile",
+      "refLayer": "Map Tiles"
+    },
+    {
+      "resultName": "Locate HyD Registered Slope",
+      "refLayer": "HyD Registered Slope"
+    },
+    {
+      "resultName": "Locate HyD Unregistered Slope",
+      "refLayer": "HyD Unregistered Slope"
+    },
+    {
+      "resultName": "Locate SIS Slope",
+      "refLayer": "SIS Slope"
+    },
+    {
+      "resultName": "Locate Bridge",
+      "refLayer": "Bridge"
+    },
+    {
+      "resultName": "CCTV-Highmast Foundation",
+      "refLayer": "Locate CCTV-Highmast Foundation"
+    },
+    {
+      "resultName": "Cover to Walkway",
+      "refLayer": "Locate Cover to Walkway"
+    },
+    {
+      "resultName": "Culvert",
+      "refLayer": "Locate Culvert"
+    },
+    {
+      "resultName": "Deck of Nullah",
+      "refLayer": "Locate Deck of Nullah"
+    },
+    {
+      "resultName": "Footbridge",
+      "refLayer": "Locate Footbridge"
+    },
+    {
+      "resultName": "Locate Noise Barrier",
+      "refLayer": "Noise Barrier"
+    },
+    {
+      "resultName": "Locate Parapet",
+      "refLayer": "Parapet"
+    },
+    {
+      "resultName": "Locate Podium",
+      "refLayer": "Podium"
+    },
+    {
+      "resultName": "Roadside Barrier Damage Report",
+      "refLayer": "Locate Roadside Barrier Damage Report"
+    },
+    {
+      "resultName": "Sign Gantry",
+      "refLayer": "Locate Sign Gantry"
+    },
+    {
+      "resultName": "Subway",
+      "refLayer": "Locate Subway"
+    },
+    {
+      "resultName": "Tunnel - TMCA and TSCA",
+      "refLayer": "Locate Tunnel - TMCA and TSCA"
+    },
+    {
+      "resultName": "Underpass",
+      "refLayer": "Locate Underpass"
+    },
+    {
+      "resultName": "Vehicular Parapet Damage Report",
+      "refLayer": "Locate Vehicular Parapet Damage Report"
+    },
+    {
+      "resultName": "Noise Enclosure",
+      "refLayer": "Locate Noise Enclosure"
+    },
+    {
+      "resultName": "Tram Shelter",
+      "refLayer": "Locate Tram Shelter"
+    }
+  ],
+  "layers": {
+    "layer": [
+      {
+        "layerName": "Building Name",
+        "fieldOrder": "BLDG_ENGNM,BLDG_CHNM"
+      },
+      {
+        "layerName": "House Number",
+        "fieldOrder": "NO_ADD,NO_ADD_CHI"
+      },
+      {
+        "layerName": "Road Name",
+        "fieldOrder": "ROADNAME,ST_CHNM,UMSROADCAT,LOCAT,ST_CODE,ST_TYPE"
+      },
+      {
+        "layerName": "Private Lot or Government Land Allocation",
+        "fieldOrder": "LOTNAME,LOTNUMBER,LOTABBR,LOT_LOTNO,LOT_LOTALP,LOT_SECTCD,LOT_CLASS"
+      },
+      {
+        "layerName": "License",
+        "fieldOrder": "LICID,LIC_NUMBER,LIC_CLASS,LIC_STATUS,LIC_AREA"
+      },
+      {
+        "layerName": "Vesting Order",
+        "fieldOrder": "VO_NUMBER,VO_NAME,VO_CLASS,VO_AREA"
+      },
+      {
+        "layerName": "Site",
+        "fieldOrder": "ENGLISH_SI,CHINESE_SI,SI_AREA"
+      },
+      {
+        "layerName": "Strategic Route Chainage",
+        "fieldOrder": "ECM_ID,ROUTE_NO,CHAINAGE,PLATE_POS,BOUND,TYPE,HEIGHT,MOUNTING,REG_CODE,ROAD_NAME,HYD_ST_COD,PREV_ROUTE,PREV_CHAIN,EASTING,NORTHING,PHOTO_DATE,DESC_DATA_SOURCE"
+      },
+      {
+        "layerName": "Tunnel Chainage",
+        "fieldOrder": "TCM_ID,T_NAME,CHAINAGE,PLATE_POS,BOUND,REG_CODE,HYD_ST_COD,PREV_CHAIN,EASTING,NORTHING,PHOTO_DATE,DESC_DATA_SOURCE"
+      },
+      {
+        "layerName": "Map Tiles",
+        "fieldOrder": "TILE_NAME"
+      },
+      {
+        "layerName": "Spot Height",
+        "fieldOrder": "SPOTHEIGHTID,HEIGHTVALUE,FEATURETYPE,LASTUPDATEDATE"
+      },
+      {
+        "layerName": "Milestone",
+        "fieldOrder": "ROAD,MILE_NUM,MILE_ID"
+      },
+      {
+        "layerName": "Multiple Road Centerline",
+        "fieldOrder": "MULROADID,MEASUREDLENGTH,HYD_ST_CODE,ST_TYPE,RD_CAT,REGION,IOW,HMD,DB,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Road Category for Inspection",
+        "fieldOrder": "ST_ENGNM,F_ROADTYPE,SUBCLASS"
+      },
+      {
+        "layerName": "Carriageway",
+        "fieldOrder": "HY_POLY_ID,FEATURE,TMCA,HSR_IND,VEGETATION,LVL,ROAD_NAME,ST_CODE,RD_CAT,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Footway",
+        "fieldOrder": "HY_POLY_ID,FEATURE,TMCA,HSR_IND,VEGETATION,LVL,ROAD_NAME,ST_CODE,RD_CAT,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Side Lane or Back Lane",
+        "fieldOrder": "HY_POLY_ID,FEATURE,TMCA,HSR_IND,VEGETATION,LVL,ROAD_NAME,ST_CODE,RD_CAT,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Cycle Track",
+        "fieldOrder": "HY_POLY_ID,FEATURE,TMCA,HSR_IND,VEGETATION,LVL,ROAD_NAME,ST_CODE,RD_CAT,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Others",
+        "fieldOrder": "HY_POLY_ID,FEATURE,TMCA,HSR_IND,VEGETATION,LVL,ROAD_NAME,ST_CODE,RD_CAT,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Maintenance Region Boundary",
+        "fieldOrder": "REGION_NAME,AREA_,PERIMETER_"
+      },
+      {
+        "layerName": "Maintenance District Boundary",
+        "fieldOrder": "REGION,MAINTENANCE,CHE_NAME,CHE_POST,CHE_TEL,SE_NAME,SE_POST,SE_TEL,E_NAME,E_POST,E_TEL,HSR_IND,SHAPE.STAREA(),SHAPE.STLENGTH()GTH"
+      },
+      {
+        "layerName": "Maintenance District Excavation Permit Boundary",
+        "fieldOrder": "XPPT_ECTO,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Lighting Boundary",
+        "fieldOrder": "LTG_REGION,DISTRICT,ABBREVIATE,CONTRACT,SE_POST,SE_NAME,SE_TEL,E_POST,E_NAME,E_TEL,I_POST,I_NAME,I_TEL,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Structures Boundary",
+        "fieldOrder": "REGION,STR_NO,CE_NAME,CE_POST,CE_TEL,SE_NAME,SE_POST,SE_TEL,E_NAME,E_POST,E_TEL,IOW1_NAME,IOW1_POST,IOW1_TEL,IOW2_NAME,IOW2_POST,IOW2_TEL,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "TMCA Boundary",
+        "fieldOrder": "CE_TMCA,CE_TEL,SE_H,SE_H_TEL,SE_BTA,SE_BTA_TEL,SE_S1,SE_S1_TEL,SE_S2,SE_S2_TEL,E1_H,E1_H_TEL,E2_H,E2_H_TEL,E3_H,E3_H_TEL,E1_BTA,E1_BTA_TEL,E2_BTA,E2_BTA_TEL,E1_S1,E1_S1_TEL,E2_S1,E2_S1_TEL,E1_S2,E1_S2_TEL,E2_S2,E2_S2_TEL,IOW1_H,IOW1_H_TEL,IOW2_H,IOW2_H_TEL,IOW1_S1,IOW1_S1_TEL,IOW2_S1,IOW2_S1_TEL,AIOW3_H,AIOW3_H_TEL,AIOW1_S2,AIOW1_S2_TEL,AIOW2_S2,AIOW2_S2_TEL,IMSUSER_TMCA_BDY_AREA,PERIMETER"
+      },
+      {
+        "layerName": "TSCA Boundary",
+        "fieldOrder": "CE_TMCA,CE_TEL,SE_H,SE_H_TEL,SE_BTA,SE_BTA_TEL,SE_S1,SE_S1_TEL,SE_S2,SE_S2_TEL,E1_H,E1_H_TEL,E2_H,E2_H_TEL,E3_H,E3_H_TEL,E1_BTA,E1_BTA_TEL,E2_BTA,E2_BTA_TEL,E1_S1,E1_S1_TEL,E2_S1,E2_S1_TEL,E1_S2,E1_S2_TEL,E2_S2,E2_S2_TEL,IOW1_H,IOW1_H_TEL,IOW2_H,IOW2_H_TEL,IOW1_S1,IOW1_S1_TEL,IOW2_S1,IOW2_S1_TEL,AIOW3_H,AIOW3_H_TEL,AIOW1_S2,AIOW1_S2_TEL,AIOW2_S2,AIOW2_S2_TEL,IMSUSER_TSCA_BDY_AREA,PERIMETER"
+      },
+      {
+        "layerName": "IOW Boundary",
+        "fieldOrder": "POST,REGION,MAINT_DIST,IOW_NAME,IOW_TEL,IOW_MOBILE,HSR_IND,SHAPE.STAREA(),SHAPE.STLENGTH()GTH"
+      },
+      {
+        "layerName": "IOW Excavation Permit Boundary",
+        "fieldOrder": "XPPT_IOW,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Common Utility Enclosure",
+        "fieldOrder": "CUE_ID,NO_OF_UU,UU,HAND_OVERDATE,LST_MAINT_DT,STR_NO,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Day-time Ban",
+        "fieldOrder": "DTB_ZONE_I,ROUTE_TYPE,ROAD_NAME,SECTION_,HYD_ST_COD,LEVEL_,AREA_,PERIMETER_"
+      },
+      {
+        "layerName": "Expressway",
+        "fieldOrder": "EXPR_ID,DESCRIPTION,GAZETTE_DATE,DRAWING,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Green Area",
+        "fieldOrder": "GA_ID,HYD_ST_CODE,LOTID,DESCRIPTION,EXECUTE_DT,PRO_COMPLETE_DT,HANDOVER_DT,ANTI_COMMENCE_DT,ANTI_COMPLETE_DT,REMARKS,LVL,POLY_STATUS,DEVELOPER_NAME,DEVELOPER_TEL,DEVELOPER_FAX,CONTRACTOR_NAME,CONTRACTOR_TEL,CONTRACTOR_FAX,DLO_NAME,DLO_TEL,DLO_FAX,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Existing Railway Protection Zone",
+        "fieldOrder": "SA_NAME,SA_REASON,AREA_,PERIMETER_"
+      },
+      {
+        "layerName": "Gazetted Railway Scheme",
+        "fieldOrder": "NAME,STATUS,GAZETTED_NOTICE,REMARK,SHAPE.STAREA(),PERIMETER"
+      },
+      {
+        "layerName": "Railway Influence Area",
+        "fieldOrder": "NAME,DRAWING,NOTES,IMSUSER_RA,PERIMETER"
+      },
+      {
+        "layerName": "Railway Route Protection",
+        "fieldOrder": "NAME,DRAWING,NOTES,IMSUSER_RA,PERIMETER"
+      },
+      {
+        "layerName": "Road Opening Restriction",
+        "fieldOrder": "ROR_ZONE_ID,ROAD_NAME,RESTRICTION,LVL,START_DATE,END_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Sensitive Area",
+        "fieldOrder": "SA_ZONE_ID,SA_NAME,SA_REASON,FULL_SA_TYPE,FULL_SA_LEVEL,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Sensitive Street",
+        "fieldOrder": "SECT_BTWN,TIA_RT_TYPE,ST_ENGNM,HYD_ST_CODE,LVL,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Shallow Depth",
+        "fieldOrder": "LOCATION,ROAD_NAME,HYD_ST_CODE,SC_LEVEL,UTIL_TYPE,WIDTH,DEPTH,UTIL_NAME,UTIL_REF,HYD_REF,COMP_DT,SRC_OF_DATA,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Strategic Street",
+        "fieldOrder": "SECT_BTWN,TIA_RT_TYPE,ST_ENGNM,HYD_ST_CODE,LVL,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Temporary Restriction",
+        "fieldOrder": "TR_ZONE_ID,TR_NAME,LVL,START_DATE,END_DATE,REASON,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Traffic Impact Assessment",
+        "fieldOrder": "TIA_ZONE_I,LONG_ROUTE,ROAD_NAME,SECTION_,LEVEL_,HYD_ST_COD,AREA_,PERIMETER_"
+      },
+      {
+        "layerName": "Works Site",
+        "fieldOrder": "CW_ID,PROJECT,LOCATION,OFFICE,MAINT_NAME,OFFICER,TELEPHONE,START_DATE,END_DATE,STATUS,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Construction and Maintenance Polygon",
+        "fieldOrder": "CM_UID,M_GID,ROAD_NAME,FEATTYPE,FULL_LVL,WORKS_TYPE,DESCRIPTION,WORKS_DATE,SURFTYPE,CONSTTYPE,PG,PMS,SHAPE.STAREA(),BC_THK,BC_SIZE,FULL_CDRES_TYPE,CDRES_THK,CDRES_SIZE,CONC_SLAB_TYPE_NAME,CSLAB_THK,CSLABGRADE,CUSH_THK,CUSH_SIZE,FRICT_TYPE_NAME,FRICT_THK,FRICT_SIZE,PAVER_TYPE_NAME,PAVER_THK,PAVER_BASE_NAME,PAVER_BED_NAME,RB_THK,RB_SIZE,REG_THK,REG_SIZE,SKID_TYPE_NAME,SKID_THK,SKID_SIZE,SAND_THK,SUB_BASE_TYPE_NAME,SB_THK,SMA_THK,SMA_SIZE,WEAR_TYPE_NAME,WEAR_THK,WEAR_SIZE,CONT_NO,WORKS_NO,CM_ID,ST_CODE,OPENDATE,HANDOVERDATE,DESIGNLIFE,ROUTE_NO,SR_ST_CH,SR_END_CH,FULL_BOUNDNAME,FULL_LANENAME,LAMP_POST,CLC_NO,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Pavement Polygon",
+        "fieldOrder": "PG_UID,FULL_PG_FEAT_TYPE,FULL_PG_SUR_TYPE_1,FULL_PG_SUR_TYPE_2,FULL_PG_PAVER_TYPE,FULL_PG_SUR_PROP,ROADNAME,ST_CODE,FULL_PG_LVL,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,PG_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Non-carriageway Pavement Centerline",
+        "fieldOrder": "PL_UID,SHAPE.STLENGTH(),CONT_NO,INV_GID,PL_ID,PG_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Special Paving Panel",
+        "fieldOrder": "SPP_UID,FULL_SPP_NATURE,FULL_SPP_FEATTYPE,FULL_SPP_BLOCKTYPE,DIM_LENGTH,DIM_WIDTH,MAX_LENGTH,ROADNAME,ST_CODE,FULL_SPP_LEVEL,INV_GID,SPP_ID,HOUSE_NO,TAKE_DATE,PHOTO_FILE,INSTALL_DT,LST_MT_DT,CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Special Road Surface",
+        "fieldOrder": "ST_CODE,ROAD_NAME,FRICT_TYPE_NAME,WEAR_TYPE_NAME,SKID_TYPE_NAME"
+      },
+      {
+        "layerName": "Barrier Fences",
+        "fieldOrder": "BF_UID,FULL_BARR_TYPE,LENGTH,STR_NO,STR_ELE_NO,UNIT_E_REF,ROADNAME,HYD_ST_CODE1,ST_CODE2,DESC_LVL,INV_GID,BARRIER_ID,CONT_NO,I_VERSION,DELETE_,DRG_NO,PROJ_DEPT,TAKE_DATE,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Railing",
+        "fieldOrder": "RL_UID,FULL_RAIL_TYPE,LENGTH,STR_NO,STR_ELE_NO,UNIT_E_REF,ROADNAME,HYD_ST_CODE1,ST_CODE2,FULL_RAIL_LVL,INV_GID,RAIL_ID,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Crash Cushion",
+        "fieldOrder": "CC_UID,LENGTH,WAR_DATE,MANUFACT,ROADNAME,ST_CODE,FULL_LVL,INV_GID,CC_ID,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Emergency Gate",
+        "fieldOrder": "EG_UID,FULL_EG_TYPE,LENGTH,MANUFACT,ROADNAME,HYD_ST_CODE1,ST_CODE2,FULL_LVL,INV_GID,EG_ID,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Noise Barrier (on ground <3m high)",
+        "fieldOrder": "NB_UID,PHOTO_LINK,DESCRIPTIO,LENGTH,ROADNAME,HYD_ST_CODE1,ST_CODE2,INV_GID,NB_ID,PHOTO_FILE,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO"
+      },
+      {
+        "layerName": "Drop Kerb",
+        "fieldOrder": "DK_UID,ROADNAME,HYD_ST_CODE,LVL,INV_GID,DK_ID,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "EM Pit",
+        "fieldOrder": "EM_UID,PHOTO_LINK,DIM_COVERL,DIM_COVERW,DEPTH,BEADREQUIR,BEADFILLED,ROAD_NAME,HYD_ST_CODE,FULL_LVL,INV_GID,EM_ID,EASTING,NORTHING,PHOTO_FILE,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Street Name Plate",
+        "fieldOrder": "SNP_ID,PHOTO_LINK,ROAD_NAME,ST_CODE,FULL_SNP_LEVEL,POST_DIA,ACT_LENGTH,ACT_HEIGHT,PLATE_ADDR,FULL_SNP_MOUNT_TYPE,FULL_SNP_FACE_TYPE,FULL_SNP_COLOUR,FULL_SNP_ARROW,BLDG_NO_LEFT,BLDG_NO_RIGHT,FULL_SNP_OLD_PLATE,NORTHING,EASTING,ROTATION,DRG_NO,PROJ_DEPT,TO_DATE,PHOTO_FILE,PHOTO_DATE,CONT_NO,INV_GID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Visitor Sign",
+        "fieldOrder": "VS_UID,PHOTO_LINK,ROADNAME,HYD_ST_CODE,FULL_LVL,INV_GID,VS_ID,DRG_NO,PROJ_DEPT,TAKE_DATE,PHOTO_FILE,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Tactile Paving",
+        "fieldOrder": "TT_UID,FULL_TP_LOCTYPE,FULL_TP_PAVTYPE,FULL_TP_MATERIAL,GRADIENT,ROADNAME,HYD_ST_CODE,FULL_TP_LVL,INV_GID,TP_ID,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Traffic Sign",
+        "fieldOrder": "TS_UID,FULL_TS_SIGN_TYPE,TS_CODE,MANU_DATE,DIRECTION,ROADNAME,HYD_ST_CODE,FULL_TS_LVL,INV_GID,PLATE_ID,TP_UID,CONT_NO,I_VERSION,DELETE_,INSTALL_DT,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Traffic Light Post",
+        "fieldOrder": "TL_ID,EMSD_NO,ST_ENGNM,HYD_ST_CODE,INSTALL_DATE,LST_MT_DT,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Railing and Barrier",
+        "fieldOrder": "ROAD_NAME,FULL_MHRB_FEAT_TYPE,FULL_MHRB_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,RB_UID,RB_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE,"
+      },
+      {
+        "layerName": "MH - Traffic Sign",
+        "fieldOrder": "ROAD_NAME,FULL_MHTS_FEAT_TYPE,FULL_MHTS_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Street Name Plate or Visitor Sign",
+        "fieldOrder": "ROAD_NAME,FULL_MHSNPVS_FEAT_TYPE,FULL_MHSNPVS_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,SNPVS_UID,SNPVS_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Tactile Paving",
+        "fieldOrder": "ROAD_NAME,FULL_MHTP_FEAT_TYPE,FULL_MHTP_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,TP_UID,TT_UID,TP_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Drop Kerb",
+        "fieldOrder": "ROAD_NAME,FULL_MHDK_FEAT_TYPE,FULL_MHDK_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,DK_UID,DK_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - EM Pit",
+        "fieldOrder": "ROAD_NAME,FULL_MHEMPIT_FEAT_TYPE,FULL_MHEMPIT_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,EM_UID,EM_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Foundations",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Invert",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Abutments or Retaining Walls",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Columns or Piers",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Girders or Main Beams or Webs",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Diaphragms or Transoms",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Soffit",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Decking",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Flooring",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Joint (Str.)",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,ELE_BRAND,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Bearings",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Ramps or Staircases",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Tower or Cable",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Drainage (Str.)",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Roof",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Finishes",
+        "fieldOrder": "STR_NO,STR_ELE_NO,UNIT_E_REF,FEATTYPE,ST_ELEMENTTYPE,INV_GID,SHAPE.STLENGTH(),SHAPE.STAREA(),CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Bridge",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "CCTV-Highmast Foundation",
+        "fieldOrder": "CCTV_ID,MAINTAIN_BY,LOCATIONS,FOUNDATION,F_CONNECTION,INV_GID,EASTING,NORTHING,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Cover to Walkway",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Culvert",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Deck of Nullah",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Footbridge",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Noise Barrier",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Noise Enclosure",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Parapet",
+        "fieldOrder": "STR_NO,SUBTYPE_NAME,MAINTAIN_BY,INV_GID,SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Podium",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Sign Gantry",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Subway",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Underpass",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Tram Shelter",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,ROAD_NAME,ST_CODE,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Tunnel-TMCA and TSCA",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,INV_GID,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Roadside Barrier Damage Report",
+        "fieldOrder": "RECORD_ID,WO_NO,INSP_DATE,INCID_DATE,LOCATION,EASTING,NORTHING,STR_NO,BARRIER,DAMAGE,EXTENT,VEHICLE_TY,PENETRATED,SPEEDLIMIT,POS_EST_SP,EST_SPEED,EST_AN_TYR,EST_AN_VIS,INJURIES,FATALITIES,CONF_DATE,TAR,HYPERLINK,REGION,HMD,IOW,DB,DB_REGION"
+      },
+      {
+        "layerName": "Vehicular Parapet Damage Report",
+        "fieldOrder": "RECORD_ID,WO_NO,INSP_DATE,INCID_DATE,LOCATION,EASTING,NORTHING,STR_NO,MATERIAL,TYPE,DRAWING_NO,DAMAGE,EXTENT,VEHICLE_TY,PENETRATED,SPEEDLIMIT,POS_EST_SP,EST_SPEED,EST_AN_TYR,EST_AN_VIS,INJURIES,FATALITIES,CONF_DATE,TAR,HYPERLINK,REGION,HMD,IOW,DB,DB_REGION"
+      },
+      {
+        "layerName": "MH - Structure",
+        "fieldOrder": "ST_ID,STR_ELE_NO,UNIT_E_REF,FULL_MHST_FEAT_TYPE,FULL_MHST_ELEMENTTYPE,ELE_BRAND,ROAD_NAME,FULL_MHST_LVL,FULL_MHST_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Tunnel Segment Polygon",
+        "fieldOrder": "TUN_POLY_ID,TUN_SEG_NO,ROAD_NAME,ST_CODE,FULL_TSP_LEVEL,FULL_TSP_RD_CAT,FULL_MAINTAIN_BY,AREA_,INV_GID,TMCA,TSCA,HSR,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Tunnel Control Area",
+        "fieldOrder": "NAME,TID,LINK"
+      },
+      {
+        "layerName": "Concrete Lining Reinforced",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Concrete Lining Unreinforced (All or Above Cwy)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Concrete Lining Unreinforced (Below Carriageway)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (Beam)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (Hanger)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (T-n-B or Top)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (Bottom)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Plastered Layers Type Wall Panel",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Compartment Underneath Road Slab",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "VE or Fibre-cement Panel",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Alcove Room or Cross Passage",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Kerbside Barrier or Walkway",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Drainage (Tunnel)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATES,DATASOURCE"
+      },
+      {
+        "layerName": "Joints (Tunnel)",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Portal Structure",
+        "fieldOrder": "TS_NO,TS_ELE_NO,UNIT_E_REF,TS_ELEMENTTYPE,SHAPE.STAREA(),SHAPE.STLENGTH(),CONT_NO,INV_GID,I_VERSION,DELETE_,SUB_DATE,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Tunnel Element",
+        "fieldOrder": "TS_ELE_NO,TS_ELEMENTTYPE,ROAD_NAME,WORKSTYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Bollard",
+        "fieldOrder": "BOLLARD_NO,BOLLARD_TY,MAP_REF,ROTATION,UTIL_NO"
+      },
+      {
+        "layerName": "Cable Duct",
+        "fieldOrder": "CABLE_NO,SUBTYPE,CABLE_SIZE,MATERIAL,CIRCUIT_NO,CORE_NO,DEPTH,LEVEL_TYPE,NO_O_SPARE,REMARKS,FROM_UTIL,TO_UTIL,FROM_TYPE,TO_TYPE"
+      },
+      {
+        "layerName": "Connector",
+        "fieldOrder": "SUBTYPE,X_COOR,Y_COOR,Z_COOR,DEPTH,ROTATION"
+      },
+      {
+        "layerName": "Control Cubicle",
+        "fieldOrder": "CONTR_NO,LTG_REGION,DISTRICT,PRIMARY_ST,SECOND_ST,LANDMARK,OTHERS,MAP_REF,ROTATION"
+      },
+      {
+        "layerName": "Highmast",
+        "fieldOrder": "MAST_NO,MAST_REGIO,ROUTENO,PRIMARY_ST,MAP_REF,PILLAR_NO,MAST_HEIGH,WATT,LINK"
+      },
+      {
+        "layerName": "High Mast Cable Duct",
+        "fieldOrder": "LEVEL_TYPE,DUCT_SIZE,MATERIAL,CABLE_NO,CIRCUIT_NO,SUBTYPE,CORE_NO,DEPTH,NO_O_SPARE,REMARKS"
+      },
+      {
+        "layerName": "High Mast Connector",
+        "fieldOrder": "SUBTYPE,DEPTH,NO_SPARE,NO_CABLE"
+      },
+      {
+        "layerName": "Highmast Pillar",
+        "fieldOrder": "PILLAR_NO,LTG_REGION,ROUTENO,PRIMARY_ST,METER_NO,MAP_REF,ROTATION"
+      },
+      {
+        "layerName": "PTI",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Covered Walkway (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Footbridge (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Noise Enclosure (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Subway (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Tram Shelter (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Underbridge (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Underpass (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Pier (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "Miscellaneous (SL)",
+        "fieldOrder": "SL_NO,LOCATION,DB,LINK"
+      },
+      {
+        "layerName": "TEST_export_dgn_Polyline1",
+        "fieldOrder": "LAYER,COLOR,DOCNAME"
+      },
+      {
+        "layerName": "TEST_export_dgn_Polygon1",
+        "fieldOrder": "LAYER,COLOR,DOCNAME"
+      },
+      {
+        "layerName": "Illuminated Traffic Aids",
+        "fieldOrder": "IT_AIDS_NO,UTIL_NO,MAP_REF,ROTATION,SUBTYPE"
+      },
+      {
+        "layerName": "Lamp Post",
+        "fieldOrder": "LAMP_NO,DIVISION,FULL_SUBTYPE,PRIMARY_ST,SECOND_ST,LANDMARK,OTHERS,MAP_REF,POLE_TYPE,POLECOLOR,BULB_QTY,MOUNTING1H,WATT1,MOUNTING2H,WATT2,ROTATION,REMARK"
+      },
+      {
+        "layerName": "Gully",
+        "fieldOrder": "GR_UID,GRAT_TYPE,OVERFLOW,GU_UNDER,TRAP_INLET,TOP_LEVEL,ROTATION,FULL_GR_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_GR_CHK_AFF_SLOPE,INV_GID,DF_ID,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE,GRAT_MAT_1"
+      },
+      {
+        "layerName": "Gully Sump",
+        "fieldOrder": "GS_UID,COVERLEVEL,COVERSHAPE,FULL_GS_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_GS_CHK_AFF_SLOPE,INV_GID,DF_ID,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Manhole Cover",
+        "fieldOrder": "MC_UID,FULL_MC_MANHOLE_TYPE,FULL_MC_COVERTYPE,FULL_MC_COVERSHAPE,DIM_COVERL,DIM_COVERW,FULL_MC_MAINT,FULL_MC_LVL,ST_CODE1,ST_CODE2,INV_GID,MC_ID,DSD_ID,CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Manhole",
+        "fieldOrder": "MH_UID,COVERLEVEL,FULL_MH_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_MH_CHK_AFF_SLOPE,INV_GID,DF_ID,MC_UID,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Catchpit",
+        "fieldOrder": "CP_UID,HEIGHT,WIDTH,LENGTH,FULL_CP_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_CP_CHK_AFF_SLOPE,INV_GID,DF_ID,CP_NO,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Carrier Drain",
+        "fieldOrder": "PP_UID,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE2_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE2_CHK_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Connection Pipe",
+        "fieldOrder": "PP_UID,FULL_PIPE1_CHK_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE1_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE1_CHK_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Cross Road Drain",
+        "fieldOrder": "PP_UID,FULL_PIPE3_CHK_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE3_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE3_CHK_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Surface Channel",
+        "fieldOrder": "PP_UID,FULL_PIPE9_CHK_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE9_CHK_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE9_CHK_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Road Drain",
+        "fieldOrder": "RD_UID,ROAD_NAME,FULL_MHRD_FEAT_TYPE,FULL_MHRD_WORKS_TYPE,DESCRIPTION,WORKS_DATE,ICG,SPG,CONT_NO,WORKS_NO,M_GID,RD_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "MH - Manhole Cover",
+        "fieldOrder": "MC_UID,ROAD_NAME,FULL_MHMC_WORKSTYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,MC_ID,I_VERSION,M_VERSION,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Affecting Fill Slopes",
+        "fieldOrder": "SLOPEID"
+      },
+      {
+        "layerName": "Affecting non-Fill Slopes",
+        "fieldOrder": "SLOPEID"
+      },
+      {
+        "layerName": "HyD Registered Slope",
+        "fieldOrder": "GEN_HYD_NO,GEN_SLP_NO,SUB_DIV_NO,DB,GEN_DISTRI,REGION,GEN_LOCATE,TOE_ELV,GEN_SLP_LGH,GEN_SLP_HGT,GEN_SLP_ANG,GEN_SLP_MAT,GEN_WAL_LGH,GEN_WAL_HGT,GEN_CTL,GEN_CNPRS,GEN_PLN_ARE,GEN_SUR_ARE,GEN_VEG_PER,MM_RMI_I_D,MM_RMI_C_D,MM_RMI_N_D,MM_EI_AGM,MM_EI_DATE,MM_SLP_CLS,MM_F_C_D,MM_URG_Y_N,MM_URG_C_D,MM_PMW_Y_N,MM_PMW_C_D,MM_NEXT_EI,IMP_W_YEAR,IMP_NATURE,IMP_SOURCE,IMP_EMP_PMP,IMP_DEVELOP,IMP_WON,IMP_W_M_D,IMP_W_C_D,IMP_COST,IMP_CERT,INC_GAU_NO,INC_DATE,INC_GEO_NO,INC_FAIL_VOL,GEO_REFNO,RESP_PTY,MAIN_AGENT,SLOPEID"
+      },
+      {
+        "layerName": "HyD Unregistered Slope",
+        "fieldOrder": "GEN_HYD_NO,GEN_SLP_NO,DB,GEN_DISTRI,GEN_REGION,GEN_LOCATE,GEN_SLP_LGH,GEN_SLP_HGT,GEN_SLP_ANG,GEN_SLP_MAT,GEN_WAL_LGH,GEN_WAL_HGT,GEN_CTL,GEN_CNPRS,GEN_PLN_ARE,GEN_SUR_ARE,GEN_VEG_PER,MM_RMI_I_D,MM_RMI_C_D,MM_RMI_N_D,MM_EI_DATE,MM_SLP_CLS,MM_F_C_D,MM_URG_Y_N,MM_URG_C_D,MM_PMW_Y_N,MM_PMW_C_D,MM_NEXT_EI,IMP_W_YEAR,IMP_NATURE,IMP_EMP_PMP,IMP_DEVELOP,IMP_WON,IMP_W_M_D,IMP_W_C_D,IMP_COST,IMP_CERT,INC_GAU_NO,INC_DATE,INC_GEO_NO,INC_FAIL_VOL,INV_GID,HYD_ST_CODE,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Retaining Wall",
+        "fieldOrder": "GEN_HYD_NO,GEN_SLP_NO,SLOPEID,SUB_DIV_NO,DB,GEN_DISTRI,GEN_REGION,GEN_LOCATE,GEN_SLP_LGH,GEN_SLP_HGT,GEN_SLP_ANG,GEN_SLP_MAT,GEN_WAL_LGH,GEN_WAL_HGT,GEN_CTL,GEN_CNPRS,GEN_PLN_ARE,GEN_SUR_ARE,GEN_VEG_PER,MM_RMI_I_D,MM_RMI_C_D,MM_RMI_N_D,MM_EI_DATE,MM_SLP_CLS,MM_F_C_D,MM_URG_Y_N,MM_URG_C_D,MM_PMW_Y_N,MM_PMW_C_D,MM_NEXT_EI,IMP_W_YEAR,IMP_NATURE,IMP_SOURCE,IMP_EMP_PMP,IMP_DEVELOP,IMP_WON,IMP_W_M_D,IMP_W_C_D,IMP_COST,IMP_CERT,INC_GAU_NO,INC_DATE,INC_GEO_NO,INC_FAIL_VOL,GEO_REFNO,RESP_PTY,MAIN_AGENT"
+      },
+      {
+        "layerName": "SIS Slope",
+        "fieldOrder": "GEN_HYD_NO,GEN_SLP_NO,DB,GEN_DISTRI,GEN_REGION,FEATURE,LOCATION,EASTING,NORTHING,TOE_ELV,GEN_LOCATE,GEN_SLP_LGH,GEN_SLP_HGT,GEN_SLP_ANG,GEN_SLP_MAT,GEN_WAL_LGH,GEN_WAL_HGT,GEN_CTL,GEN_CNPRS,GEN_PLN_ARE,GEN_SUR_ARE,GEN_VEG_PER,MM_RMI_I_D,MM_RMI_C_D,MM_RMI_N_D,MM_EI_DATE,MM_SLP_CLS,MM_F_C_D,MM_URG_Y_N,MM_URG_C_D,MM_PMW_Y_N,MM_PMW_C_D,MM_NEXT_EI,IMP_W_YEAR,IMP_NATURE,IMP_SOURCE,IMP_EMP_PMP,IMP_DEVELOP,IMP_WON,IMP_W_M_D,IMP_W_C_D,IMP_COST,IMP_CERT,INC_GAU_NO,INC_DATE,INC_GEO_NO,INC_FAIL_VOL,SLOPE_NO"
+      },
+      {
+        "layerName": "MH - Slope",
+        "fieldOrder": "SP_UID,ROAD_NAME,FULL_MHSP_FEAT_TYPE,FULL_MHSP_WORKS_TYPE,DESCRIPTION,WORKS_DATE,CONT_NO,WORKS_NO,M_GID,SP_ID,I_VERSION,M_VERSION,GEO_NO,HYD_NO,ST_CODE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATASOURCE"
+      },
+      {
+        "layerName": "Master Plan of Paving Block",
+        "fieldOrder": "CONCEPT,LEGEND1,DB_CODE,SAMPLE,SHAPE.STAREA()"
+      },
+      {
+        "layerName": "Village Representative Elections Boundary (2007)",
+        "fieldOrder": "PLANNO,RCOM_ENAME,RCOM_CNAME,VIL_ENAME,VIL_CNAME,DISTRICT,SHAPE.STAREA()"
+      },
+      {
+        "layerName": "Survey Control Station (Trig and GPS only)",
+        "fieldOrder": "STN_NO,LOCALITY,SHT_NO,LINK,MONU_TYPE,DSO,SVY_COMPLE,STN_TYPE,HK80_EAST,HK80_NORTH,HKPD_LEVEL"
+      },
+      {
+        "layerName": "Survey Control Station",
+        "fieldOrder": "STN_NO,LOCALITY,SHT_NO,LINK,MONU_TYPE,DSO,SVY_COMPLE,STN_TYPE,HK80_EAST,HK80_NORTH,HKPD_LEVEL"
+      },
+      {
+        "layerName": "Aerial Photo Survey Control",
+        "fieldOrder": "SECTION,STN_NO,PHOTO_NO,DATE_OF_PH,LOCALITY,DESCRIPTIO,DESCRIPT_1,HK80_EAST,HK80_NORTH,HKPD_LEVEL"
+      },
+      {
+        "layerName": "Main Trig Links",
+        "fieldOrder": "ID,TYPE,LENGTH"
+      },
+      {
+        "layerName": "Minor Trig Links",
+        "fieldOrder": "ID,TYPE,LENGTH"
+      },
+      {
+        "layerName": "Traverse Legs",
+        "fieldOrder": "ID,TYPE,LENGTH"
+      },
+      {
+        "layerName": "Digital Terrain Model",
+        "fieldOrder": "DTM_CODE,SOURCE,ACCURACY,DATE_,LOCATION,PROJECT_NA,REMARKS"
+      },
+      {
+        "layerName": "Photo-realistic Terrain Model",
+        "fieldOrder": "PRM_CODE,SOURCE,RESOLUTION,DATE_,LOCATION,PROJECT_NA,REMARKS"
+      },
+      {
+        "layerName": "Photo-realistic 3D Design Model",
+        "fieldOrder": "DEM_CODE,LEV_DETAIL,ANIMATION,SOURCE,DATE_,LOCATION,PROJECT_NA,REMARKS"
+      },
+      {
+        "layerName": "Photo-realistic Building Block",
+        "fieldOrder": "BLDG_CODE,BLDG_NAME,CHI_NAME,LEV_DETAIL,BLDG_IMG,SOURCE,DATE_,LOCATION,PROJECT_NA,REMARKS"
+      },
+      {
+        "layerName": "All Carriageway Defects",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "Road Defects",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "Potholes",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "Manhole Defects",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "All Footway Defects",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "General Footway Defects",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "Paving Block Footway Defects",
+        "fieldOrder": "SR_NUM,COMPLAIN_T,NR_CREATED,INSPECTOR,CC_EMAIL,SR_TITLE,EVENT_ST,OFFICES,SUB_MATTER,ROAD_TYPE,DEFECT,CP_SOURCE,CHANNEL,ROADNAME,ST_CODE,REGION,MAINTENANC,DB_CODE,DB_REGION"
+      },
+      {
+        "layerName": "Country Park",
+        "fieldOrder": "CODE,NAME,C_NAME,SHAPE.STAREA()"
+      },
+      {
+        "layerName": "Marine Park",
+        "fieldOrder": "CODE,NAME,CNAME,SHAPE.STAREA()"
+      },
+      {
+        "layerName": "Special Area",
+        "fieldOrder": "CODE,NAME,C_NAME,SHAPE.STAREA()"
+      },
+      {
+        "layerName": "District Board Boundary",
+        "fieldOrder": "DB_REGION,DB_CODE,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Hong Kong Police Force Boundary",
+        "fieldOrder": "BOUNDARY,OFFICE1,NAME_1,PHONE_1,OFFICE2,NAME_2,PHONE_2,XPMS_GRP,DATASOURCE,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Red Light Camera",
+        "fieldOrder": "LOCATION,REGION"
+      },
+      {
+        "layerName": "LCSD Facility (Point)",
+        "fieldOrder": "LOC_ID,LOC_NM,GCODE"
+      },
+      {
+        "layerName": "LCSD Facility (Line)",
+        "fieldOrder": "LOC_ID,LOC_NM,GCODE,LOC_NM_CHI"
+      },
+      {
+        "layerName": "LCSD Facility (Polygon)",
+        "fieldOrder": "LOC_ID,LOC_NM,GCODE,LOC_NM_CHI"
+      },
+      {
+        "layerName": "Archaeological and Historical Sites",
+        "fieldOrder": "SYSID,SHAI_AMONO,SHAI_GRADE,FULL_SHAI_CLASS,SHAI_ENGNM,SHAI_CHNM,SHAI_LOC,SHAI_CHLOC,DISTRICT,SHAI_OWNER,SHAPE_LENG,SHAPE_AREA_1"
+      },
+      {
+        "layerName": "Old and Valuable Tree",
+        "fieldOrder": "RT_DEPT_CODE,RT_TREEREG_NO,RT_OVT_NO,CS_SCIENTIFIC_NAME,CS_CHI_DESC,RT_DBH,RT_CROWN,RT_HEIGHT,RT_PLACE_ENG,RT_DISTRICT_CODE"
+      },
+      {
+        "layerName": "Land Use Zoning",
+        "fieldOrder": "ZONE_LABEL,DESC_ENG,ZONE_LABEL,PLAN_NO,SHAPE,SHAPE.STAREA(),PERIMETER,SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Outline Zoning Plan",
+        "fieldOrder": "PLAN_NO,NAME_ENG,PUB_DATE,PLAN_SCALE,SHAPE,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Tertiary Planning Unit and Street Block and Village Cluster 2016",
+        "fieldOrder": "TPU,SB_VC,FUL,TYPE,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Transport Department Boundary",
+        "fieldOrder": "OFFICE_1,POST_1,PHONE_1,OFFICE_2,POST_2,PHONE_2,REF_NO,DATASOURCE,SHAPE.STAREA(),SHAPE.STLENGTH()"
+      },
+      {
+        "layerName": "Annual Traffic Census Data",
+        "fieldOrder": "STATIONNO,LEGEND,DELETE_IND,ROADNAME,FROMROAD,TOROAD,AADT2021,PCV2021,AADT2020,PCV2020,AADT2019,PCV2019,AADT2018,PCV2018,AADT2017,PCV2017,AADT2016,PCV2016,AADT2015,PCV2015,AADT2014,PCV2014,AADT2013,PCV2013,AADT2012,PCV2012,AADT2011,PCV2011,AADT2010,PCV2010,AADT2009,PCV2009,AADT2008,PCV2008,AADT2007,PCV2007,AADT2006,PCV2006,AADT2005,PCV2005,AADT2004,PCV2004,AADT2003,PCV2003,AADT2002,PCV2002,AADT2001,PCV2001,AADT2000,PCV2000,AADT1999,PCV1999,AADT1998,PCV1998,AADT1997,PCV1997,AADT1996,PCV1996,AADT1995,PCV1995,AADT1994,PCV1994,AADT1993,PCV1993,AADT1992,PCV1992,AADT1991,PCV1991,AADT1990,PCV1990,AADT1989,PCV1989,REMARKS"
+      },
+      {
+        "layerName": "Red or Pink Route",
+        "fieldOrder": "TIA_RT_TYP,HYD_ST_COD,SECT_BTWN,LVL,ST_ENGNM,PERIMETER"
+      },
+      {
+        "layerName": "Year 2001",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,SECND_ST,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE,VEH_NO"
+      },
+      {
+        "layerName": "Year 2002",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,SECND_ST,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE,VEH_NO"
+      },
+      {
+        "layerName": "Year 2003",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,SECND_ST,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2004",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,SECND_ST,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2005",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2007",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2008",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2009",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2010",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2011",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2012",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2013",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_AID,TRAFF_CONG,RD_SURFACE,AT_NEAR,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,CW_WIDTH,NO_LANE,RD_CLASS,VEH_MOVE,OVERTAKE"
+      },
+      {
+        "layerName": "Year 2014",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_CONG,RD_SURFACE,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,COLLIDE,RD_CLASS,VEH_MOVE"
+      },
+      {
+        "layerName": "Year 2015",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_CONG,RD_SURFACE,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,COLLIDE,RD_CLASS,VEH_MOVE"
+      },
+      {
+        "layerName": "Year 2016",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_CONG,RD_SURFACE,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,COLLIDE,RD_CLASS,VEH_MOVE"
+      },
+      {
+        "layerName": "Year 2017",
+        "fieldOrder": "ARB,SEVERITY,POLDIV,ACC_DATE,ACC_TIME,WEEK_DAY,ST_NAME,IN_70M_JCN,IN_20M_JCN,IDEN_FTR,GRID_E,GRID_N,PREC_LOCTN,NO_VEH,NO_CSU,WEATHER,RAIN,NAT_LGT,ST_LGT,SPEED_LMT,TRAFF_CONG,RD_SURFACE,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,COLLIDE,RD_CLASS,VEH_MOVE"
+      },
+      {
+        "layerName": "Multi Route",
+        "fieldOrder": "MULROADID,MEASUREDLENGTH,HYD_ST_CODE,ST_TYPE,RD_CAT,REGION,IOW,HMD,DB,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Road Category",
+        "fieldOrder": "ST_ENGNM,F_ROADTYPE,SUBCLASS"
+      },
+      {
+        "layerName": "Highway Polygon",
+        "fieldOrder": "HY_POLY_ID,FEATURE,TMCA,HSR_IND,VEGETATION,LVL,ROAD_NAME,ST_CODE,RD_CAT,SHAPE.STAREA(),SHAPE.STLENGTH(),REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "PG Audit",
+        "fieldOrder": "AUDIT_CODE,ROAD_NAME,ST_CODE,FEATTYPE,LVL,SHAPE.STAREA(),SHAPE.STLENGTH(),INV_GID,AUDIT_ID,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Gully (Reference)",
+        "fieldOrder": "GR_UID,GRAT_TYPE,OVERFLOW,GU_UNDER,FULL_GR_TRAP_INLET,TOP_LEVEL,ROTATION,FULL_GR_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_GR_AFF_SLOPE,INV_GID,DF_ID,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,FULL_GS_DATA_SOURCE,GRAT_MAT_1"
+      },
+      {
+        "layerName": "Gully Sump (Reference)",
+        "fieldOrder": "GS_UID,COVERLEVEL,COVERSHAPE,FULL_GS_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_GS_AFF_SLOPE,INV_GID,DF_ID,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,FULL_GS_DATA_SOURCE"
+      },
+      {
+        "layerName": "Manhole (Reference)",
+        "fieldOrder": "MH_UID,COVERLEVEL,FULL_MH_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_MH_AFF_SLOPE,INV_GID,DF_ID,MC_UID,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,FULL_MH_DATA_SOURCE"
+      },
+      {
+        "layerName": "Catchpit (Reference)",
+        "fieldOrder": "CP_UID,HEIGHT,WIDTH,LENGTH,FULL_CP_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_CP_AFF_SLOPE,INV_GID,DF_ID,CP_NO,CONT_NO,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,FULL_CP_DATA_SOURCE"
+      },
+      {
+        "layerName": "Carrier Drain (Reference)",
+        "fieldOrder": "PP_UID,FULL_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Connection Pipe (Reference)",
+        "fieldOrder": "PP_UID,FULL_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Cross Road Drain (Reference)",
+        "fieldOrder": "PP_UID,FULL_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Surface Channel (Reference)",
+        "fieldOrder": "PP_UID,FULL_PIPE_TYPE,DIAMETER,HEIGHT,WIDTH,LENGTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,FULL_PIPE_LVL,ST_CODE1,ST_CODE2,SLOPE_NO,FULL_PIPE_AFF_SLOPE,INSTALL_DT,LT_CCTV_ID,LT_CCTV_DT,LST_MT_DT,CONT_NO,INV_GID,DF_ID,I_VERSION,DELETE_,REGION,HMD,IOW,DB,DB_REGION,REF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Street Block or Village Cluster 2011",
+        "fieldOrder": "TPU,SB_VC,FUL,SHAPE.STAREA(),SHAPE_LENG"
+      },
+      {
+        "layerName": "Tertiary Planning Unit 2011",
+        "fieldOrder": "TPU,SHAPE.STAREA(),SHAPE_LENG"
+      },
+      {
+        "layerName": "Emergency Helpline Telephone Post (UU)",
+        "fieldOrder": "SFID,PHOTOLINK,LVL,ST_CODE1,ST_CODE2,GROUND_LVL,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,DATE_SUB"
+      },
+      {
+        "layerName": "E&M Pit (UU)",
+        "fieldOrder": "EM_SFID,PHOTOLINK,LVL,DIM_COVERL,DIM_COVERW,BEADREQUIR,BEADFILLED,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,SUB_DATE"
+      },
+      {
+        "layerName": "Fire Hydrant (UU)",
+        "fieldOrder": "SFID,PHOTOLINK,LVL,ST_CODE1,ST_CODE2,GROUND_LVL,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,DATE_SUB"
+      },
+      {
+        "layerName": "Manhole Cover (UU)",
+        "fieldOrder": "MC_SFID,PHOTOLINK,MH_TYPE,COVERLEVEL,COVERTYPE,COVERSHAPE,DIM_COVERL,DIM_COVERW,MAINT,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,SUB_DATE"
+      },
+      {
+        "layerName": "Utility Cover (UU)",
+        "fieldOrder": "SFID,PHOTOLINK,UC_CODE,LVL,ST_CODE1,ST_CODE2,COVER_NO,DIRECTION,COVERLEVEL,COVERTYPE,COVERSHAPE,DIM_COVERL,DIM_COVERW,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,DATE_SUB"
+      },
+      {
+        "layerName": "Telephone Kiosk (UU)",
+        "fieldOrder": "SFID,PHOTOLINK,LVL,ST_CODE1,ST_CODE2,GROUND_LVL,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,DATE_SUB"
+      },
+      {
+        "layerName": "Electricity Transformer (UU)",
+        "fieldOrder": "SFID,PHOTOLINK,LVL,ST_CODE1,ST_CODE2,GROUND_LVL,CONT_NO,TIMESTAMP,SVY_AUDIT,AUDIT_DATE,DATE_SUB"
+      },
+      {
+        "layerName": "Digital Terrain Model (UU)",
+        "fieldOrder": "JOB_NO,JOB_DESC,PHOTOLINK,ST_CODE1,ST_CODE2,SVY_DATE,REMARK,DATE_SUB"
+      },
+      {
+        "layerName": "Low Noise Road Surface",
+        "fieldOrder": "ID,EPDID,PRGM,HMD,REQUIRED_VERIFY,REGION"
+      },
+      {
+        "layerName": "Connection Pipe (Drain Condition)",
+        "fieldOrder": "PP_UID,FULL_PIPE1_CHK_PIPE_TYPE,DCI,D_HIERARCHY,LENGTH,LT_CCTV_DT,ROADNAME,ICG,SPG,INSTALL_DT,LT_CCTV_ID,LST_MT_DT,INV_GID,DF_ID,DIAMETER,HEIGHT,WIDTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,REMARKS,FULL_PIPE1_CHK_LVL,ST_CODE1,ST_CODE2,FULL_PIPE1_CHK_AFF_SLP_TY,SLOPE_NO,PHOTO_FILE,PHOTO_DATE,FULL_PIPE1_CHK_DATA_SOURCE,CONT_NO,I_VERSION,DELETE_,HMD,REGION"
+      },
+      {
+        "layerName": "Carrier Drain (Drain Condition)",
+        "fieldOrder": "PP_UID,FULL_PIPE2_CHK_PIPE_TYPE,DCI,D_HIERARCHY,LENGTH,LT_CCTV_DT,ROADNAME,ICG,SPG,INSTALL_DT,LT_CCTV_ID,LST_MT_DT,INV_GID,DF_ID,DIAMETER,HEIGHT,WIDTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,REMARKS,FULL_PIPE2_CHK_LVL,ST_CODE1,ST_CODE2,FULL_PIPE2_CHK_AFF_SLP_TY,SLOPE_NO,PHOTO_FILE,PHOTO_DATE,FULL_PIPE2_CHK_DATA_SOURCE,CONT_NO,I_VERSION,DELETE_,HMD,REGION"
+      },
+      {
+        "layerName": "Cross Road Drain (Drain Condition)",
+        "fieldOrder": "PP_UID,FULL_PIPE3_CHK_PIPE_TYPE,DCI,D_HIERARCHY,LENGTH,LT_CCTV_DT,ROADNAME,ICG,SPG,INSTALL_DT,LT_CCTV_ID,LST_MT_DT,INV_GID,DF_ID,DIAMETER,HEIGHT,WIDTH,US_LEVEL,DS_LEVEL,E_US,N_US,E_DS,N_DS,REMARKS,FULL_PIPE3_CHK_LVL,ST_CODE1,ST_CODE2,FULL_PIPE3_CHK_AFF_SLP_TY,SLOPE_NO,PHOTO_FILE,PHOTO_DATE,FULL_PIPE3_CHK_DATA_SOURCE,CONT_NO,I_VERSION,DELETE_,HMD,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Pavement Defect",
+        "fieldOrder": "ROAD_NAME,MODE_OF_DISTRESS,FULL_PCI_SURTYPE,FULL_PCI_DEFCODE,FULL_PCI_SEVERITY,SCORE,MAINT_DIST,ST_CODE,FULL_PCI_LEVEL,FULL_PCI_BOUND,INSP_NO,ITEM_NO,MRF_UID,CYCLE_YEAR,CYCLE_NO,SUB_DATE,CONT_NO"
+      },
+      {
+        "layerName": "Multi Route Chainage for each 100m",
+        "fieldOrder": "MRF_UID,ROAD_NAME,MULROADID,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition for 2019 (Cycle2)",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition for 2019 (Cycle1)",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition for 2018 (Cycle2)",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition for 2018 (Cycle1)",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition for 2017 (Cycle2)",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Footway and Cycle Track Condition for 2017 (Cycle1)",
+        "fieldOrder": "AUDIT_CODE,FEATTYPE,FCI_INDEX,INSP_DATE,DEF_AREA,SHAPE.STAREA(),CYCLE_YEAR,CYCLE_NO,ROAD_NAME,AUDIT_ID,ST_CODE,LVL,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition for 2019 (Cycle2)",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition for 2019 (Cycle1)",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition for 2018 (Cycle2)",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition for 2018 (Cycle1)",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition for 2017 (Cycle2)",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Carriageway Condition for 2017 (Cycle1)",
+        "fieldOrder": "MRF_UID,PCI_INDEX,INSP_DATE,SCORE,LENGTH,CONT_NO,CYCLE_YEAR,CYCLE_NO,ROAD_NAME,LVL,START_CH,MAIN_DIST,REGION"
+      },
+      {
+        "layerName": "Column Condition",
+        "fieldOrder": "LAMP_NO,CONDITION,INSP_DATE,DIVISION,LTG_REGION,DESC_LTYPE,PRIMARY_ST,SECOND_ST,POLE_TYPE,POLECOLOR,SUBTYPE_NAME"
+      },
+      {
+        "layerName": "Lantern Condition",
+        "fieldOrder": "LAMP_NO,CONDITION,INSP_DATE,DIVISION,LTG_REGION,DESC_LTYPE,PRIMARY_ST,SECOND_ST,BULB_QTY,MOUNTING1H,WATT1,MOUNTING2H,WATT2,SUBTYPE_NAME"
+      },
+      {
+        "layerName": "Cable Condition",
+        "fieldOrder": "CABLE_NO,CONDITION,INSP_DATE,LENGTH,SUBTYPE_NAME,CIRCUIT_NO,FROM_TYPE,FROM_UTIL,TO_TYPE,TO_UTIL"
+      },
+      {
+        "layerName": "Winch System for Highmast Condition",
+        "fieldOrder": "MAST_NO,CI,LOCATION,WINCH_BRAND,INSTALL_DA,INSPECT_DA"
+      },
+      {
+        "layerName": "Highmast Cable Condition",
+        "fieldOrder": "CABLE_NO,CI,LOCATION,FROM_TYPE,FROM_UTIL,TO_TYPE,TO_UTIL,INSPECT_DA"
+      },
+      {
+        "layerName": "UPS Condition",
+        "fieldOrder": "SL_NO,LINK,UPS_NO,LOCATION,BRAND,INSTALL_DA,INSP_DA,SL_TYPE,CI_UPS,DB"
+      },
+      {
+        "layerName": "Grading of Slope Maintenance Condition",
+        "fieldOrder": "GEN_HYD_NO,GEN_SLP_NO,DESC_,TYPE,GEN_REGION,GEN_DISTRI,GEN_LOCATE,MM_SLP_CLS,MM_EI_AGM,MM_EI_DATE,MM_CLS_DSP,MM_CLS_DSDS,MM_CLS_DSSDS,MM_CLS_LBWS,MM_CLS_DSM,GEN_CTL,GEN_CNPRS,MM_F_I_D,MM_F_WON,MM_F_C_D,MM_URG_Y_N,MM_URG_WON,MM_URG_C_D,MM_PMW_Y_N,MM_PMW_WON,MM_PMW_C_D"
+      },
+      {
+        "layerName": "Bridge Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Footbridge Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Underpass Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Subway Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Sign Gantry Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Cover to Walkway Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Noise Barrier Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Deck of Nullah Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Noise Enclosure Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Podium Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Culvert Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Tram Shelter Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Utility Enclosure Condition",
+        "fieldOrder": "INV_GID,STR_NO,DESC_FEAT_TYPE,MAINTAIN_BY,MAX_F0_MAX_SCORE,SCI_SE,SCI_AN,SCI_AE,RATING_34_DEFECT,MAX_F0_EXTENT,MAX_F0_SEVER,INSP_NO,INSP_DATE,SHAPE.STAREA(),SHAPE.STLENGTH(),MAX_SCORE01,MEAN_SCORE01,MAX_SCORE02,MEAN_SCORE02,MAX_SCORE03,MEAN_SCORE03,MAX_SCORE04,MEAN_SCORE04,MAX_SCORE05,MEAN_SCORE05,MAX_SCORE06,MEAN_SCORE06,MAX_SCORE07,MEAN_SCORE07,MAX_SCORE08,MEAN_SCORE08,MAX_SCORE09,MEAN_SCORE09,MAX_SCORE10,MEAN_SCORE10,MAX_SCORE11,MEAN_SCORE11,MAX_SCORE12,MEAN_SCORE12,MAX_SCORE13,MEAN_SCORE13,MAX_SCORE14,MEAN_SCORE14,MAX_SCORE15,MEAN_SCORE15,MAX_SCORE16,MEAN_SCORE16,MAX_SCORE17,MEAN_SCORE17,MAX_SCORE18,MEAN_SCORE18,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Foundations (FD) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Invert (IN) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Abutments or Retaining Walls (AR) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Columns or Piers (CP) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Girders or Main Beams or Webs (GB) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Diaphragms or Transoms (DT) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Soffit (SF) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Decking (DK) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Flooring (FL) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Joints (Str.-JT) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,ELE_BRAND,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Bearings (BR) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Vehicular Barriers or Parapets (VP) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,BARR_TYPE,BF_UID,MAX_SCORE,EXTENT,SEVERITY,LENGTH,INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,BARRIER_ID,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Pedestrian Railings (PR) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,RAIL_TYPE,RL_UID,MAX_SCORE,EXTENT,SEVERITY,LENGTH,INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,RAIL_ID,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Ramps or Staircases (RS) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Tower or Cable (TC) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Drainage (Str.-DR) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Roof (RF) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Finishes (FN) Condition",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Foundations (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Abutments or Retaining Walls (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Columns or Piers (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Bridge Decks or Girders (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Joint (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,ELE_BRAND,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Lateral Bearings (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Tower (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Drainage (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Bearings (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Joints - Lower Deck (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,ELE_BRAND,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Main Cable or Suspender or Stay Cable (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Stabilization Cable or Holding Down Cable (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Main Cable Anchorages (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Hydraulic Buffers (LSCSB)",
+        "fieldOrder": "INV_GID,STR_ELE_NO,DESC_ELE_TYPE,UNIT_E_REF,MAX_SCORE,EXTENT,SEVERITY,SHAPE.STAREA(),SHAPE.STLENGTH(),INSP_NO,INSP_DATE,STR_NO,DESC_FEAT_TYPE,CONT_NO,I_VERSION,DELETE_,REGION,HMD,DB,DEF_NO,DATA_SOURCE"
+      },
+      {
+        "layerName": "Tunnel Segment Condition",
+        "fieldOrder": "TUN_SEG_NO,ROAD_NAME,AE_TSCI,SE_TSCI,AN_TSCI,COUNT_T_DEF_34,CONT_NO,INSP_NO,SUB_DATE,INV_GID,RTMS_LINK,ST_CODE,FULL_TSP_LEVEL,FULL_TSP_RD_CAT,FULL_MAINTAIN_BY,TMCA,TSCA,HSR,AREA_,ELE_CI01,ELE_CI02,ELE_CI03,ELE_CI04,ELE_CI05,ELE_CI06,ELE_CI07,ELE_CI08,ELE_CI09,ELE_CI10"
+      },
+      {
+        "layerName": "Concrete Lining Reinforced (CR) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Concrete Lining Reinforced (Top-CR) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Concrete Lining Reinforced (Bottom-CR) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Concrete Lining Reinforced (Wall-CR) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Concrete Lining Reinforced (Underneath-CR) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Concrete Lining Unreinforced (All or Above Cwy | CU) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Concrete Lining Unreinforced (Below Carriageway | CU) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (T-n-B or Top | FC) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (Bottom | FC) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (Hanger | FC) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "False Ceiling or Ventilation Slab (Beam | FC) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Plastered Layers Type Wall Panel (PW) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Compartment Underneath Road Slab (CO) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "VE or Fibre-cement Panel (VP) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Alcove Room or Cross Passage (CP) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Alcove Room or Cross Passage (Top-CP) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Alcove Room or Cross Passage (Bottom-CP) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Alcove Room or Cross Passage (Wall-CP) Condition -NEW",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Kerbside Barrier or Walkway (KB) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Drainage (DR) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Joint (JT) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Portal Structure (PS) Condition",
+        "fieldOrder": "TS_NO,UNIT_E_REF,DESC_ELE_TYPE,T_ELE_SC,EXTENT,SEVERITY,COUNT_DEF_34,DEF_T_ID,INSP_NO,CONT_NO,INV_GID,TS_ELE_NO,I_VERSION,DELETE,SUB_DATE"
+      },
+      {
+        "layerName": "Tree Health Condition",
+        "fieldOrder": "TID,TID_LINK,THC_D,TREE_CHAR,BN,CN,DBH,VID,DISTRICT,STREET,OVT,STONET,REMARKS"
+      },
+      {
+        "layerName": "Tree Structural Condition",
+        "fieldOrder": "TID,TID_LINK,TSC_D,TREE_CHAR,BN,CN,DBH,VID,DISTRICT,STREET,OVT,STONET,REMARKS"
+      },
+      {
+        "layerName": "Vegetated Area Condition",
+        "fieldOrder": "VEG_ID,INT_COND,SITE_AREA,WORKS_DATE,CONT_NO,ST_CODE,ROAD_NAME,REGION,HMD"
+      },
+      {
+        "layerName": "R&D Trial Pavement Area",
+        "fieldOrder": "ROR_ZONE_ID,VER_DT,NEXT_VER_DT,ROR_REST_TYPE,POLY_STATUS,LVL,CAP_USR,CAP_DT,LST_UPD_USR,LST_UPD_DT,REVIEW_USR,REVIEW_DT,REF_NO,DATA_SOURCE,REGION,IOW,HMD,DB,OBJECTID_ORI,ROAD_NAME,START_DATE,END_DATE,LEVEL_,Restriction,DataSource,Shape.STArea(),Shape.STLength()"
+      },
+      {
+        "layerName": "Low Noise Road Surfacing",
+        "fieldOrder": "PRO_TIT,EP_UID,EP_NO,LINK,PRO_DEP,RD_NAME,ST_CODE,REGION,HMD,DB,REMARKS,IOW,LEVEL_,Shape.STArea(),Shape.STLength()"
+      },
+      {
+        "layerName": "EP Noise Barrier",
+        "fieldOrder": "PRO_TIT,EP_UID,EP_NO,LINK,PRO_DEP,RD_NAME,ST_CODE,REGION,HMD,DB,REMARKS,IOW,LEVEL_,Shape.STArea(),Shape.STLength()"
+      },
+      {
+        "layerName": "EP Noise Enclosure",
+        "fieldOrder": "PRO_TIT,EP_UID,EP_NO,LINK,PRO_DEP,RD_NAME,ST_CODE,REGION,HMD,DB,REMARKS,IOW,LEVEL_,Shape.STArea(),Shape.STLength()"
+      },
+      {
+        "layerName": "EP Landscape Area",
+        "fieldOrder": "PRO_TIT,EP_UID,EP_NO,LINK,PRO_DEP,RD_NAME,ST_CODE,REGION,HMD,DB,REMARKS,IOW,LEVEL_,Shape.STArea(),Shape.STLength()"
+      },
+      {
+        "layerName": "Roadside Planter Wall",
+        "fieldOrder": "INV_GID,RPW_ID,RPW_UID,FEAT_TYPE,LENGTH,CONT_NO,ST_CODE,I_VERSION,DELETE_,TIMESTAMP,P_USER_ID,SUB_DATE,REGION,HMD,IOW,DB,CAP_USR,CAP_DT,LST_UPD_USR,LST_UPD_DT,REVIEW_USR,REVIEW_DT,REF_NO,DATA_SOURCE,OBJECTID_ORI,RPW_FEAT_TYPE,RPW_DATA_SOURCE,Shape.STLength()"
+      },
+      {
+        "layerName": "MH - Roadside Planter Wall",
+        "fieldOrder": "M_GID,RPW_ID,I_VERSION,M_VERSION,FEAT_TYPE,WORKS_TYPE,DESCRIPTION,CONT_NO,ST_CODE,ROAD_NAME,SUB_DATE,DATA_SOURCE,RPW_UID"
+      },
+      {
+        "layerName": "Tunnel - TMCA and TSCA",
+        "fieldOrder": "STR_NO,MAINTAIN_BY,REF_NO,DATA_SOURCE,REGION,HMD,IOW,DB,INV_GID,OBJECTID_ORI,DB_REGION,Shape.STArea(),Shape.STLength()"
+      },
+      {
+        "layerName": "MH - Structure (LSCSB)",
+        "fieldOrder": "M_GID,STR_ELE_NO,UNIT_E_REF,ST_ID,ELE_TYPE,I_VERSION,M_VERSION,FEAT_TYPE,WORKS_TYPE,DESCRIPTION,WORKS_DATE,WORKS_NO,CONT_NO,ST_CODE,ROAD_NAME,CAP_USR,CAP_DT,LST_UPD_USR,LST_UPD_DT,REVIEW_USR,REVIEW_DT,REF_NO,DATA_SOURCE,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,ELE_BRAND,WORKS_TYPE"
+      },
+      {
+        "layerName": "MH - Cable",
+        "fieldOrder": "CABLE_NO,M_GID,CABLE_NO_1,I_VERSION,M_VERSION,FROM_UTIL,TO_TUIL,FROM_TYPE,TO_TYPE,WORKS_NO,WORKS_TYPE,COMM_DATE,COMP_DATECONT_NO,SUB_DATE,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "MH - Lamp Post",
+        "fieldOrder": "LAMP_NO,M_GID,LAMP_NO1,FEAT_TYPE,SIDE,I_VERSION,M_VERSION,CAUSE,WORKS_NO,WORKS_TYPE,COMM_DATE,COMP_DATE,CONT_NO,SUB_DATE,SHAPEAREA,SHAPELEN,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "VIS Tree",
+        "fieldOrder": "TREE_ID,TREE_UID,SLOPE_NO,VEG_ID,SPEC_TYPE,SPREAD,DBH,HEIGHT,FEAT_TYPE,ZONE_TYPE,LU_HMD,OVT_ID,HYD_NO,RECORD_DT,CONT_NO,I_VERSION,NORTHING,EASTING"
+      },
+      {
+        "layerName": "OVT / Stone Wall Tree",
+        "fieldOrder": "TID,VID,BN,CN,DBH,HEIGHT,SPREAD,AGE_C,RECORD_D,DISTRICT,STREET,EASTING,NORTHING,LEVEL_,SC1,SC2,SC3,SC4,SC5,SC6,OVT,STONET,EVERGREEN,DECIDUOUS,IWT,REMARKS,TID_LINK,CREATED_D,FELLED,TRANSFERRED,TREE_CHAR,DELETE_"
+      },
+      {
+        "layerName": "VIS Vegetation Area",
+        "fieldOrder": "INV_GID,VEG_ID,RECORD_DT,ST_CODE,ROAD_NAME,SLOPE_NO,HYD_NO,SITE_AREA,SP_AREA,VEG_AREA,TOE_BERM,SHOTCRETED,ROCKY,RETAINING,EROSION,STRUCTURE,N_BARRIER,SITE_INFO,V1,V1_QTY,V2,V2_QTY,V3,V3_QTY,V4,V4_QTY,V5,V5_QTY,V6,V6_QTY,V7,V7_QTY,V8,V8_QTY,V9,V9_QTY,METER_NO,NO_WATER_P,IRRI_REM,CONT_NO,I_VERSION,DELETE_,REGION,HMD,IOW,DB,REF_NO,AUTO_MANU,IRRI_TYPE,DATA_SOURCE,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "VIS MH - Vegetation",
+        "fieldOrder": "M_GID,VEG_ID,SLOPE_NO,HYD_NO,I_VERSION,M_VERSION,INT_COND,FEAT_TYPE,WORKS_TYPE,DESCRIPT,WORKS_DATE,WORKS_NO,CONT_NO,ST_CODE,ROAD_NAME,ROUTE_NO,SR_ST_CH,SR_END_CH,BOUND,LANE,LAMP_POST,CLC_NO,REF_NO,DATA_SOURCE,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "Trig Station",
+        "fieldOrder": "STN_NO,STN_NAME,LOCALITY,MONU_TYPE,TER_ACURCY,FIXED_BY,HK80_NORTH,HK80_EAST,CLA_ACURCY,HKPD_LEVEL,WGS_LEVEL,GPS_ACURCY,LEV_ACURCY,FRAME,LAT_DEG,LAT_MIN,LAT_SEC,LONG_DEG,LONG_MIN,LONG_SEC,LINK"
+      },
+      {
+        "layerName": "GPS Station",
+        "fieldOrder": "STN_NO,STN_NAME,LOCALITY,MONU_TYPE,TER_ACURCY,FIXED_BY,HK80_NORTH,HK80_EAST,CLA_ACURCY,HKPD_LEVEL,WGS_LEVEL,GPS_ACURCY,LEV_ACURCY,FRAME,LAT_DEG,LAT_MIN,LAT_SEC,LONG_DEG,LONG_MIN,LONG_SEC,LINK"
+      },
+      {
+        "layerName": "Traverse Station",
+        "fieldOrder": "STN_NO,LOCALITY,MONU_TYPE,TER_ACURCY,TRAV_LEV,FIXED_BY,HK80_NORTH,HK80_EAST,CLA_ACURCY,HKPD_LEVEL,WGS_LEVEL,GPS_ACURCY,LEV_ACURCY,FRAME,LAT_DEG,LAT_MIN,LAT_SEC,LONG_DEG,LONG_MIN,LONG_SEC,LINK"
+      },
+      {
+        "layerName": "Bench Mark",
+        "fieldOrder": "STN_NO,MONU_TYPE,LEV_ACURCY,FIXED_BY,HK80_NORTH,HK80_EAST,CLA_ACURCY,HKPD_LEVEL,LINK"
+      },
+      {
+        "layerName": "Engineering Survey Station",
+        "fieldOrder": "STN_NO,MONU_TYPE,FIXED_BY,HK80_NORTH,HK80_EAST,HKPD_LEVEL,LINK"
+      },
+      {
+        "layerName": "Engineering Survey Station Before 2006",
+        "fieldOrder": "STN_NO,MONU_TYPE,TER_ACURCY,TRAV_LEV,FIXED_BY,HK80_NORTH,HK80_EAST,CLA_ACURCY,HKPD_LEVEL,WGS_LEVEL,GPS_ACURCY,LEV_ACURCY,FRAME,LAT_DEG,LAT_MIN,LAT_SEC,LONG_DEG,LONG_MIN,LONG_SEC,DATE_OF_SUB_GIH,LINK,SVY_COMPLE"
+      },
+      {
+        "layerName": "DSO Local Survey Station",
+        "fieldOrder": "STN_NO,MONU_TYPE,FIXED_BY,HK80_NORTH,HK80_EAST,HKPD_LEVEL"
+      },
+      {
+        "layerName": "Trig Links",
+        "fieldOrder": "E1,N1,E2,N2,ID,TYPE,SHAPE.STLength()"
+      },
+      {
+        "layerName": "NET GPS",
+        "fieldOrder": "E1,N1,E2,N2,ID,TYPE,SHAPE.STLength()"
+      },
+      {
+        "layerName": "TRAVLINK",
+        "fieldOrder": "E1,N1,E2,N2,ID,TYPE,SHAPE.STLength()"
+      },
+      {
+        "layerName": "3D Realistic Model",
+        "fieldOrder": "PROJECT,MODEL,CAPDATE,OFFICE"
+      },
+      {
+        "layerName": "Inventory Register",
+        "fieldOrder": "SECTION,JOB_DESC,JOB_NO,CONT_NO,PLAN_NO,COMP_NO,SVY_BY,SVY_DATE,CHK_BY,CHK_DATE,REMARK,DATE_SUB,SDS_PID,TPL_ID"
+      },
+      {
+        "layerName": "Inventory Register Polygon",
+        "fieldOrder": "SDS_PID,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "Survey Job Record",
+        "fieldOrder": "JOB_NO,JOB_DESC,JOB_DATE,COMP_FOLDER,CONT_NO,SECTION"
+      },
+      {
+        "layerName": "Survey Job Record Polygon",
+        "fieldOrder": "JOB_NO,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "District Council Constituency Boundary",
+        "fieldOrder": "CACODE,ENAME,CNAME,E00_CENTRO,E00_CENT_1,DISTRICT_T,DISTRICT_E,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "Vegetaion Masterzone",
+        "fieldOrder": "MZ_ZONE_ID,MZ_DEPT,MZ_GIS_ID,MZ_STATUS,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "Vegetation Subzone",
+        "fieldOrder": "SZ_ZONE_ID,SZ_MZ_ID,SZ_DEPT,SZ_GIS_ID,SZ_STATUS,SHAPE.STArea(),SHAPE.STLength()"
+      },
+      {
+        "layerName": "Year 2018",
+        "fieldOrder": "ARB,POLDIV,ACC_DATE,ACC_TIME,GRID_E,GRID_N,NO_VEH,NO_CSU,SPEED_LMT,SEVERITY,WEEK_DAY,IN_70M_JCN,IN_20M_JCN,WEATHER,RAIN,NAT_LGT,ST_LGT,TRAFF_CONG,RD_SURFACE,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,RD_CLASS,VEH_MOVE,COLLIDE,ST_NAME,PREC_LOCTN"
+      },
+      {
+        "layerName": "Year 2019",
+        "fieldOrder": "ARB,POLDIV,ACC_DATE,ACC_TIME,GRID_E,GRID_N,NO_VEH,NO_CSU,SPEED_LMT,SEVERITY,WEEK_DAY,IN_70M_JCN,IN_20M_JCN,WEATHER,RAIN,NAT_LGT,ST_LGT,TRAFF_CONG,RD_SURFACE,XING_LMT,XING_15M,JCN_CTRL,JCN_TYPE,RD_TYPE,RD_CLASS,VEH_MOVE,COLLIDE,ST_NAME,PREC_LOCTN"
+      },
+      {
+        "layerName": "High Speed Local Road",
+        "fieldOrder": "SPEED_LIMIT_ID,ROAD_ROUTE_ID,FROM_POINT,TO_POINT,SPEED_LIMIT,OFFSET,STREET_ENAME,STREET_CNAME,ELEVATION,RD_CAT,ST_CODE,EXIT_NUM,ROUTE_NUM,REMARKS,ROUTE_ID,TRAVEL_DIRECTION,CRE_DATE,LAST_UPD_DATE_G,ALIAS_ENAME,ALIAS_CNAME,SHAPE_LENGTH_1,HYD,EXPRESSWAY,HSR,TMCA,SECTION,CATEGORY,SPEED_LIMIT_UID"
+      },
+      {
+        "layerName": "High Speed Road (HSR Contract)",
+        "fieldOrder": "SPEED_LIMIT_ID,ROAD_ROUTE_ID,FROM_POINT,TO_POINT,SPEED_LIMIT,OFFSET,STREET_ENAME,STREET_CNAME,ELEVATION,RD_CAT,ST_CODE,EXIT_NUM,ROUTE_NUM,REMARKS,ROUTE_ID,TRAVEL_DIRECTION,CRE_DATE,LAST_UPD_DATE_G,ALIAS_ENAME,ALIAS_CNAME,SHAPE_LENGTH_1,HYD,EXPRESSWAY,HSR,TMCA,SECTION,CATEGORY,SPEED_LIMIT_UID"
+      },
+      {
+        "layerName": "Speed Map (from TD)",
+        "fieldOrder": "ROAD_ROUTE_ID,SPEED_LIMIT,CRE_DATE,LAST_UPD_DATE_G,ST_CODE,RD_CAT,DESCRIPT,SHAPE.STLength()"
+      },
+      {
+        "layerName": "Licence And Permit Line",
+        "fieldOrder": "OBJECTID_1,LASTUPDATE,LICENCEAND,LICENCEA_1,FEATURECOD,LICENSEDUS,SHAPE_LENG"
+      },
+      {
+        "layerName": "Private Manhole Cover",
+        "fieldOrder": "MANHOLE_COVER_ID,LICENSE_AND_PERMITNO,LICENSE_AND_PERMITID,OWNER,CONTACT_NO,SITE_PHOTO,NORTHING,EASTING"
+      },
+      {
+        "layerName": "Tree Health and Structural Condition",
+        "fieldOrder": "VEG_ID,TREE_ID,P_TREE_ID,DBH,HEIGHT,SPREAD,LU_HMD,TYPE,SPECIES,HEALTH,STRUCTURAL,TREE_HS_COND,NORTHING,EASTING"
+      }
+    ]
+  }
+}
