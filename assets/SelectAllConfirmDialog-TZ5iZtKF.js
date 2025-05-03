@@ -1,0 +1,1 @@
+import{jp as l,cQ as o}from"./index-BxBRPJgz.js";import{E as r}from"./ExportActionConfirmDialog-BG8MXQMZ.js";const a=e=>{const{t}=l("AttributeTable");return o.jsx(r,{title:t("Select-All-title"),body:t("Select-All-message"),...e})};export{a as default};

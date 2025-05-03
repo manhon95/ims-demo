@@ -1,7 +1,0 @@
-import{ee as d,iV as m,eg as _}from"./index-bAmN2aA2.js";import{s as v,u as x,i as g,c as G}from"./operatorGeodesicBuffer-pQbv2I4m.js";import{e as l}from"./geodeticCurveType-7t2zY7c0.js";import"./SimpleGeometryCursor-mcLrWF5q.js";let c,y,f;function N(){return!!c&&v()}async function E(){if(!N()){const[t]=await Promise.all([d(()=>import("./jsonConverter-IyIYV8-4.js"),__vite__mapDeps([0,1,2,3,4,5])),x()]);c=t.fromGeometries,y=t.fromGeometry,f=t.toGeometry}}function L(t,o,s={}){let{curveType:n="geodesic",maxDeviation:e=NaN,unit:a}=s;a&&(o=m(o,a,"meters"),e&&(e=m(e,a,"meters")));const r=y(t),i=r.getSpatialReference();return f(g(r.getGeometry(),i,l[n],o,e),i)}function R(t,o,s={}){let{curveType:n="geodesic",maxDeviation:e=NaN,union:a=!1,unit:r}=s;r&&(o=o.map(u=>m(u,r,"meters")),e&&(e=m(e,r,"meters")));const[i,p]=c(t);return G(i,p,l[n],o,e,a).map(u=>f(u,p)).filter(_)}export{L as execute,R as executeMany,N as isLoaded,E as load};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/jsonConverter-IyIYV8-4.js","assets/Transformation2D-xpGMitgC.js","assets/ProjectionTransformation-bgMRW0kj.js","assets/SimpleGeometryCursor-mcLrWF5q.js","assets/index-bAmN2aA2.js","assets/index-69fO1gDf.css"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}

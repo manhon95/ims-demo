@@ -1,0 +1,1 @@
+import"./index-BxBRPJgz.js";import"./Transformation2D-xpGMitgC.js";import"./ProjectionTransformation-Xhe8ILPs.js";import"./jsonConverter-DL9vw_LY.js";import{n as u,s as a}from"./areaOperator-yY0UYCy-.js";import"./SimpleGeometryCursor-mcLrWF5q.js";import"./apiConverter-_91heJkW.js";export{u as execute,a as supportsCurves};

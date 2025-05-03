@@ -1,0 +1,1 @@
+import{n as a,c}from"./centroidOperator-AmI5a8ig.js";import"./Transformation2D-xpGMitgC.js";import"./ProjectionTransformation-Xhe8ILPs.js";import"./index-BxBRPJgz.js";import"./jsonConverter-DL9vw_LY.js";import"./Centroid-DZi-eb9F-iOpzTLOt.js";import"./apiConverter-_91heJkW.js";import"./SimpleGeometryCursor-mcLrWF5q.js";export{a as execute,c as supportsCurves};

@@ -1,1 +1,0 @@
-import{jp as s,cQ as o}from"./index-bAmN2aA2.js";import{E as r}from"./ExportActionConfirmDialog-maplTC6l.js";const l=e=>{const{t}=s("AttributeTable");return e.selectedObjectId.length>2e3?o.jsx(r,{title:t("Export-DGN-title"),body:t("Export-DGN-message(First 2000)"),...e}):o.jsx(r,{title:t("Export-DGN-title"),body:t("Export-DGN-message"),...e})};export{l as default};

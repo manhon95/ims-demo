@@ -1,1 +1,0 @@
-import{gY as m,jH as i,hS as n}from"./index-bAmN2aA2.js";import{p}from"./queryTopFeatures-Psktk-QI.js";async function S(r,a,o,t){const e=m(r),s={...t},{data:f}=await p(e,i.from(a),o,s);return n.fromJSON(f)}export{S as executeTopFeaturesQuery};

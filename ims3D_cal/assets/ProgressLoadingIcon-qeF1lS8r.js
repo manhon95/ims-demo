@@ -1,1 +1,0 @@
-import{cQ as r,cR as e,cT as s,kh as i}from"./index-bAmN2aA2.js";const o=({open:a})=>r.jsx(e,{open:a,"aria-labelledby":"alert-dialog-title","aria-describedby":"alert-dialog-description",children:r.jsx(s,{children:r.jsx(i,{})})});export{o as default};

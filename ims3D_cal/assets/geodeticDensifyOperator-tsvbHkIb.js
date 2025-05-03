@@ -1,7 +1,0 @@
-import{ee as y,iV as f}from"./index-bAmN2aA2.js";import{i as g,a as v,u as x,c as P,s as S}from"./operatorGeodeticDensify-zjDcTeuV.js";import{e as p}from"./geodeticCurveType-7t2zY7c0.js";let n,c,u,s,l;function _(){return!!n&&S()}async function T(){if(!_()){const[e]=await Promise.all([y(()=>import("./apiConverter-lpMYR5Or.js"),__vite__mapDeps([0,1,2,3,4,5,6])),g()]);n=e.fromGeometry,c=e.fromSpatialReference,u=e.getSpatialReference,s=e.toGeometry,l=v()}}function b(e,t,i={}){const{curveType:a="geodesic",unit:r}=i;r&&(t=f(t,r,"meters"));const o=u(e);return s(x(n(e),t,c(o),p[a]),o)}function O(e,t,i={}){const{curveType:a="geodesic",unit:r}=i;r&&(t=f(t,r,"meters"));const o=e.map(n),m=u(e);return P(o,t,c(m),p[a]).map(d=>s(d,m))}const E=Object.freeze(Object.defineProperty({__proto__:null,execute:b,executeMany:O,isLoaded:_,load:T,get supportsCurves(){return l}},Symbol.toStringTag,{value:"Module"}));export{O as d,_ as f,E as g,T as l,l as m,b as y};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/apiConverter-lpMYR5Or.js","assets/Transformation2D-xpGMitgC.js","assets/ProjectionTransformation-bgMRW0kj.js","assets/SimpleGeometryCursor-mcLrWF5q.js","assets/index-bAmN2aA2.js","assets/index-69fO1gDf.css","assets/jsonConverter-IyIYV8-4.js"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
