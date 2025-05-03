@@ -1,0 +1,6 @@
+{
+    "locateFailed": "定位失败！",
+    "InvalidCoordinate": "坐标不在香港内，请输入有效坐标！",
+    "2D" : "切换到2D",
+    "3D" : "切换到3D"
+}

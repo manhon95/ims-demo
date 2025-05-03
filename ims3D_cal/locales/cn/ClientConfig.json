@@ -1,0 +1,10 @@
+{
+    "Manage-Client-Config": "管理客户表面配置",
+    "Item": "项目",
+    "Setting": "设定",
+    "Load-from-file": "从档案里载入",
+    "Save-to-file": "保存到档案",
+    "Auto-save": "自动储存最后地图设置",
+    "Display-historical": "显示清单图层的历史数据",
+    "Management-Stat": "切换管理统计数据PDF至Excel"
+}

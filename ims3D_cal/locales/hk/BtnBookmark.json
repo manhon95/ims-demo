@@ -1,0 +1,12 @@
+﻿{
+    "Bookmark": "書籤",
+    "Include-drawings": "包括繪圖(只用於新增書籤)",
+    "Clear-bookmark-graphics": "清除書籤圖形",
+    "Import-bookmark": "導入書籤",
+    "Export-bookmark": "導出書籤",
+    "Share-bookmark": "分享書籤",
+    "Choose-bookmark": "選擇書籤",
+    "Bookmark-url-placeholder": "選擇書籤以創建 URL",
+    "Copy-to-clipborad": "複製到剪貼板",
+    "Close": "關閉"
+}

@@ -1,0 +1,1 @@
+import{jp as r,cQ as s}from"./index-bAmN2aA2.js";import{E as i}from"./ExportActionConfirmDialog-maplTC6l.js";const n=o=>{const{t}=r("AttributeTable");return s.jsx(i,{title:t("Export-CSV-title"),body:t("Export-CSV-message"),...o})};export{n as default};

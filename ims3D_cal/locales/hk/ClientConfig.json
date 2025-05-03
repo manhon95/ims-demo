@@ -1,0 +1,10 @@
+{
+    "Manage-Client-Config": "管理客戶表面配置",
+    "Item": "項目",
+    "Setting": "設定",
+    "Load-from-file": "從檔案裡載入",
+    "Save-to-file": "保存到檔案",
+    "Auto-save": "自動儲存最後地圖設置",
+    "Display-historical": "顯示清單圖層的歷史數據",
+    "Management-Stat": "切換管理統計數據PDF至Excel"
+}

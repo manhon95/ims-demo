@@ -1,0 +1,1 @@
+import{gY as s,jH as e}from"./index-bAmN2aA2.js";import{m}from"./queryTopFeatures-Psktk-QI.js";async function n(o,t,a){const r=s(o);return(await m(r,e.from(t),{...a})).data.objectIds}export{n as executeForTopIds};
