@@ -1,0 +1,1 @@
+import{dI as I,d6 as O}from"./index-rQblpct7.js";const c=I().vec3f(O.POSITION),f=I().vec3f(O.POSITION).vec2f(O.UV0),v=I().vec3f(O.POSITION).vec4u8(O.COLOR),N=I().vec3f(O.POSITION).vec2f(O.UV0).vec4u8(O.OBJECTANDLAYERIDCOLOR);export{N as I,f,v as r,c as t};

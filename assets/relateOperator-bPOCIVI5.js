@@ -1,0 +1,1 @@
+import{i as a,p as c,l,m as u}from"./relateOperator-QVWP1isu.js";import"./Transformation2D-xpGMitgC.js";import"./ProjectionTransformation-bge47yFu.js";import"./index-rQblpct7.js";import"./jsonConverter-PJLwBP4F.js";import"./apiConverter-W6GgmnBG.js";import"./SimpleGeometryCursor-mcLrWF5q.js";export{a as accelerateGeometry,c as execute,l as isValidDE9IM,u as supportsCurves};
